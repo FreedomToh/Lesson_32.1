@@ -20,8 +20,9 @@ int main() {
     film["director"] = "Christopher Nolan";
     film["written-by"] = {"Jonathan Nolan", "Christopher Nolan"};
     film["producer"] = {"Emma Thomas", "Christopher Nolan", "Lynda Obst"};
-    film["starring"] = {"Matthew McConaughey", "Anne Hathaway", "Jessica Chastain",
-                        "Bill Irwin", "Ellen Burstyn", "Michael Caine"};
+    film["starring"]["Tom Hanks"] = "Paul Edgecomb";
+    film["starring"]["David Morse"] = "Brutus Brutal Howell";
+    film["starring"]["Bonnie Hunt"] = "Jan Edgecomb";
     film["productions-company"] = {"Paramount Pictures", "Warner Bros. Pictures"};
     writeData(film);
 
